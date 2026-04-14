@@ -1,0 +1,11 @@
+
+.orders-list { display:flex; flex-direction:column; gap:1rem; }
+.order-card { display:flex; flex-direction:column; gap:0.6rem; }
+.ord-header { display:flex; align-items:center; justify-content:space-between; }
+.ord-token { font-family:"Syne",sans-serif; font-weight:800; font-size:1.1rem; color:var(--accent); }
+.ord-date { font-size:0.8rem; color:var(--text2); }
+.ord-items { display:flex; flex-wrap:wrap; gap:0.4rem; }
+.ord-item-tag { background:var(--surface2); border:1px solid var(--border); border-radius:99px; padding:0.2rem 0.65rem; font-size:0.78rem; color:var(--text2); }
+.ord-footer { display:flex; align-items:center; justify-content:space-between; padding-top:0.5rem; border-top:1px solid var(--border); }
+.ord-total { font-weight:700; font-size:1rem; font-family:"Syne",sans-serif; }
+.ord-reorder-btn { padding:0.45rem 1rem; font-size:0.82rem; }

@@ -1,0 +1,22 @@
+
+.os-loading { display:flex; align-items:center; justify-content:center; padding:2rem; }
+.os-card { margin-top:1rem; }
+.os-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1.25rem; }
+.os-token { font-size:1.5rem; font-family:"Syne",sans-serif; font-weight:800; color:var(--accent); }
+.os-queue { font-size:0.82rem; color:var(--text2); margin-top:0.2rem; }
+.os-time { background:rgba(255,215,0,0.1); color:var(--accent2); padding:0.4rem 0.85rem; border-radius:99px; font-size:0.85rem; font-weight:600; }
+.os-steps { display:flex; align-items:center; gap:0; margin-bottom:1.25rem; }
+.os-step { display:flex; flex-direction:column; align-items:center; position:relative; flex:1; gap:0.35rem; }
+.os-dot { width:28px; height:28px; border-radius:50%; background:var(--surface2); border:2px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:0.75rem; font-weight:700; transition:all 0.3s; z-index:1; }
+.os-step.done .os-dot { background:var(--green); border-color:var(--green); color:#111; }
+.os-step.active .os-dot { background:var(--accent); border-color:var(--accent); color:#fff; animation:pulse 1.5s infinite; }
+.os-label { font-size:0.72rem; color:var(--text2); text-transform:uppercase; letter-spacing:0.04em; }
+.os-step.done .os-label, .os-step.active .os-label { color:var(--text); }
+.os-line { position:absolute; top:14px; left:50%; width:100%; height:2px; background:var(--border); z-index:0; }
+.os-line.done { background:var(--green); }
+.os-ready { text-align:center; padding:1rem; background:rgba(74,222,128,0.08); border-radius:10px; margin-bottom:1rem; animation:bounceIn 0.4s; }
+.os-ready-icon { font-size:2rem; margin-bottom:0.35rem; }
+.os-ready-text { font-size:0.88rem; color:var(--green); font-weight:500; }
+.os-items { border-top:1px solid var(--border); padding-top:1rem; display:flex; flex-direction:column; gap:0.4rem; }
+.os-item { display:flex; justify-content:space-between; font-size:0.88rem; color:var(--text2); }
+.os-total { display:flex; justify-content:space-between; font-weight:700; font-size:0.95rem; margin-top:0.4rem; padding-top:0.5rem; border-top:1px solid var(--border); }
